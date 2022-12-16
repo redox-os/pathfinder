@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 gl = "0.14"
-glutin = "0.23"
+glutin = { git = "https://gitlab.redox-os.org/redox-os/glutin.git", branch = "redox-0.29" }
 
 [dependencies.pathfinder_canvas]
 path = "../../canvas"
